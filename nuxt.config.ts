@@ -10,7 +10,11 @@ export default defineNuxtConfig({
     plugins: [tailwindcss()],
   },
 
-  modules: ["@nuxtjs/google-fonts", "@nuxt/image"],
+  modules: ["@nuxtjs/google-fonts", "@nuxt/image", "nuxt-svgo"],
+
+  svgo: {
+    componentPrefix: "i",
+  },
 
   googleFonts: {
     families: {

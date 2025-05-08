@@ -2,15 +2,21 @@
 @theme {
   --font-poppins: "Poppins", "sans-serif";
   --font-mont: "Montserrat", "sans-serif";
-  --color-secondary: #64ffda;
-  --color-tertiary: #8892b0;
   --color-primary: #0a192f;
+  --color-secondary: #4fd1c5;
+  --color-tertiary: #ccd6f6;
 }
 
 @layer components {
   .main-container {
     max-width: 1250px;
     margin: 0 auto;
+  }
+  .smooth-transition {
+    transition-property: color, background-color, border-color,
+      text-decoration-color, fill, stroke;
+    transition-timing-function: ease-in;
+    transition-duration: 200ms;
   }
 }
 

@@ -16,10 +16,37 @@
         />
       </div>
       <ul class="hidden text-lg md:flex md:gap-10 font-medium">
-        <NuxtLink to="/" class="p-2 cursor-pointer">Home</NuxtLink>
-        <NuxtLink to="#about" class="p-2 cursor-pointer">About</NuxtLink>
-        <NuxtLink to="#skills" class="p-2 cursor-pointer">Skills</NuxtLink>
-        <NuxtLink to="#contact" class="p-2 cursor-pointer">Contact</NuxtLink>
+        <li class="px-3 py-2">
+          <NuxtLink
+            to="/"
+            class="p-2 cursor-pointer hover:text-secondary smooth-transition"
+            >Home</NuxtLink
+          >
+        </li>
+        <li class="px-3 py-2">
+          <NuxtLink
+            to="#about"
+            class="p-2 cursor-pointer hover:text-secondary smooth-transition"
+            >About</NuxtLink
+          >
+        </li>
+        <li class="px-3 py-2">
+          <NuxtLink
+            to="#skills"
+            class="p-2 cursor-pointer hover:text-secondary smooth-transition"
+            >Skills</NuxtLink
+          >
+        </li>
+        <li
+          class="border group border-white w-fit px-3 py-2 hover:bg-secondary smooth-transition cursor-pointer"
+        >
+          <NuxtLink
+            to="#contact"
+            class="cursor-pointer group-hover:text-black smooth-transition flex items-center"
+          >
+            <span>Contact</span>
+          </NuxtLink>
+        </li>
       </ul>
     </div>
   </header>
