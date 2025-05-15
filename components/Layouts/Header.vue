@@ -1,4 +1,14 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+const scrollToBottom = (id: string) => {
+  const element = document.getElementById(id);
+  if (element) {
+    element.scrollIntoView({
+      behavior: "smooth",
+      block: "end", // Scrolls to bottom of element
+    });
+  }
+};
+</script>
 
 <template>
   <header
@@ -23,11 +33,10 @@
             >Home</NuxtLink
           >
         </li>
-        <li class="px-3 py-2">
-          <NuxtLink
-            to="#about"
+        <li class="px-3 py-2" @click="scrollToBottom('about')">
+          <span
             class="p-2 cursor-pointer hover:text-secondary smooth-transition"
-            >About</NuxtLink
+            >About</span
           >
         </li>
         <li class="px-3 py-2">
