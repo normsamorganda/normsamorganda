@@ -6,7 +6,7 @@ const year = date.getFullYear();
 
 <template>
   <footer
-    class="w-full font-poppins text-center bg-primary text-white py-2.5 text-xs"
+    class="w-full shadow-md shadow-secondary border border-secondary font-poppins text-center bg-primary text-white py-2.5 text-xs"
   >
     &copy; {{ year }} Created and Design by Norman Amorganda
   </footer>

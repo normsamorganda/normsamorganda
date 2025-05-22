@@ -47,7 +47,7 @@ onMounted(() => {
 
 <template>
   <h2
-    class="text-2xl sm:text-4xl lg:text-7xl font-bold text-[#8892b0] h-[2rem] lg:h-[4.5rem]"
+    class="text-2xl sm:text-4xl lg:text-7xl font-bold text-secondary h-[2rem] lg:h-[4.5rem]"
   >
     {{ currentPhrase }}
   </h2>

@@ -12,10 +12,10 @@ const scrollToBottom = (id: string) => {
 
 <template>
   <header
-    class="font-poppins flex items-center justify-center text-5xl w-full bg-primary text-gray-300 h-[84px]"
+    class="font-poppins border-b border-secondary flex items-center justify-center text-5xl w-full bg-primary text-gray-300 h-[84px] py-3 px-4"
   >
     <div
-      class="main-container mx-auto w-full fixed z-50 flex justify-around bg-primary items-center py-3 px-4 md:justify-between"
+      class="main-container mx-auto w-full fixed z-50 flex justify-around bg-primary items-center md:justify-between"
     >
       <div>
         <NuxtPicture
