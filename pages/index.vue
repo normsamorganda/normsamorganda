@@ -15,7 +15,8 @@ const scrollToBottom = (id: string) => {
 </script>
 
 <template>
-  <main class="w-full bg-primary font-mont overflow-auto">
+  <main class="w-full bg-primary font-mont overflow-auto relative">
+    <SocialMedia />
     <div class="main-container px-8 h-[calc(100svh-120px)]">
       <div class="flex flex-wrap size-full flex-col justify-center space-y-4">
         <h1 class="text-2xl sm:text-4xl lg:text-7xl font-bold text-[#ccd6f6]">
