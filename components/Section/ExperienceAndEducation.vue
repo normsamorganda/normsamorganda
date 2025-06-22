@@ -2,7 +2,7 @@
 <template>
   <div
     id="work-experience"
-    class="flex size-full flex-col px-4 md:px-0 lg:flex-row justify-around lg:justify-center space-y-4 py-6 gap-x-6 lg:gap-x-12"
+    class="flex size-full flex-col px-4 md:px-0 lg:flex-row justify-around lg:justify-center space-y-4 my-12 lg:my-0 gap-x-6 lg:gap-x-12"
   >
     <div class="lg:flex-1 text-white">
       <div class="w-full space-y-4">
@@ -29,7 +29,7 @@
                 <p class="text-secondary font-semibold text-2xl">
                   Stealth Solutions and Digital Marketing
                 </p>
-                <div class="flex items-center gap-x-6">
+                <div class="flex flex-col lg:flex-row items-center gap-x-6">
                   <p>Web Developer</p>
                   <p class="text-sm text-gray-300 font-medium">
                     February 2024 - Present
@@ -82,7 +82,7 @@
                 <p class="text-secondary font-semibold text-2xl">
                   Vtimetech Consulting Inc
                 </p>
-                <div class="flex items-center gap-x-6">
+                <div class="flex flex-col lg:flex-row items-center gap-x-6">
                   <p>Frontend Developer</p>
                   <p class="text-sm text-gray-300 font-medium">
                     March 2023 - February 2024

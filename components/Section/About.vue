@@ -3,7 +3,7 @@
 <template>
   <div
     id="about"
-    class="flex size-full flex-col lg:flex-row justify-around lg:justify-center space-y-4 py-6 gap-x-12"
+    class="flex size-full flex-col px-4 md:px-0 lg:flex-row justify-around lg:justify-center space-y-4 my-12 lg:my-0 gap-x-6 lg:gap-x-12"
   >
     <NuxtPicture
       src="/images/me2.jpg"
