@@ -30,7 +30,9 @@ const scrollToBottom = (id: string) => {
           heigh="60px"
         />
       </div>
-      <div><i-burger filled class="text-7xl" @click="toggleModal" /></div>
+      <div class="block lg:hidden">
+        <i-burger filled class="text-7xl" @click="toggleModal" />
+      </div>
       <ul class="hidden text-lg md:flex md:gap-10 font-medium">
         <li class="px-3 py-2">
           <NuxtLink
