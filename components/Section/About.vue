@@ -7,15 +7,15 @@
   >
     <NuxtPicture
       src="/images/me2.jpg"
-      class="size-54 shrink-0 mx-auto"
+      class="lg:h-[26.625rem] size-54 shrink-0 mx-auto my-auto"
       :imgAttrs="{
         class:
           'rounded-xl max-w-full h-full object-cover object-center shadow-md shadow-secondary hover:shadow-lg hover:shadow-secondary smooth-transition',
       }"
     />
 
-    <div class="lg:flex-1 text-white space-y-4">
-      <div class="relative w-fit space-y-2 mx-auto md:mx-0">
+    <div class="lg:flex-1 text-white space-y-4 flex flex-col justify-center">
+      <div class="relative w-fit space-y-2 mx-auto md:mx-0 pt-4">
         <h3 class="text-white text-2xl sm:text-4xl uppercase font-semibold">
           About
         </h3>

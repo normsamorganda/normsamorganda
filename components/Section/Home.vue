@@ -10,7 +10,10 @@ const scrollToBottom = (id: string) => {
 };
 </script>
 <template>
-  <div class="flex flex-wrap size-full flex-col justify-center space-y-4">
+  <div
+    class="flex flex-wrap size-full flex-col justify-center space-y-4"
+    id="home"
+  >
     <h1 class="text-2xl sm:text-4xl lg:text-7xl font-bold text-[#ccd6f6]">
       Hello World,
     </h1>

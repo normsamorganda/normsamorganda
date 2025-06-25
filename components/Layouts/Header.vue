@@ -34,7 +34,7 @@ const scrollToBottom = (id: string) => {
         <i-burger filled class="text-7xl" @click="toggleModal" />
       </div>
       <ul class="hidden text-lg md:flex md:gap-10 font-medium">
-        <li class="px-3 py-2">
+        <li class="px-3 py-2" @click="scrollToBottom('home')">
           <NuxtLink
             to="/"
             class="p-2 cursor-pointer hover:text-secondary smooth-transition"
